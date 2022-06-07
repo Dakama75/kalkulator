@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style2.css" id="link">
+</head>
+
+<body id="body" style="background-color: white;">
+
+
+  <div class="all">
+    <div class="p1" id="p1"></div>
+    <div class="semiall">
+      <button type="button" class="button" id="btn7">7</button>
+      <button type="button" class="button" id="btn8">8</button>
+      <button type="button" class="button" id="btn9">9</button>
+      <button type="button" class="button" id="btnSum">+</button>
+      <button type="button" class="button" id="btnClear">AC</button><br>
+      <button type="button" class="button" id="btn4">4</button>
+      <button type="button" class="button" id="btn5">5</button>
+      <button type="button" class="button" id="btn6">6</button>
+      <button type="button" class="button" id="btnSub">-</button>
+      <button type="button" class="button" id="btnPow">x<sup>y</sup></button><br>
+      <button type="button" class="button" id="btn1">1</button>
+      <button type="button" class="button" id="btn2">2</button>
+      <button type="button" class="button" id="btn3">3</button>
+      <button type="button" class="button" id="btnMult">•</button>
+      <button type="button" class="button" id="btnRoot">√</button><br>
+      <button type="button" class="button" id="btn0">0</button>
+      <button type="button" class="buttonEql" id="btnEql">=</button>
+      <button type="button" class="button" id="btnDiv">÷</button>
+      <button type="button" class="button" id="btnCom">,</button>
+    </div>
+  </div>
+  </div>
+
+  <div class="toAll">
+    <a href="all.html"><svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C201.7 512 151.2 495 109.7 466.1C95.2 455.1 91.64 436 101.8 421.5C111.9 407 131.8 403.5 146.3 413.6C177.4 435.3 215.2 448 256 448C362 448 448 362 448 256C448 149.1 362 64 256 64C202.1 64 155 85.46 120.2 120.2L151 151C166.1 166.1 155.4 192 134.1 192H24C10.75 192 0 181.3 0 168V57.94C0 36.56 25.85 25.85 40.97 40.97L74.98 74.98C121.3 28.69 185.3 0 255.1 0L256 0zM256 128C269.3 128 280 138.7 280 152V246.1L344.1 311C354.3 320.4 354.3 335.6 344.1 344.1C335.6 354.3 320.4 354.3 311 344.1L239 272.1C234.5 268.5 232 262.4 232 256V152C232 138.7 242.7 128 256 128V128z"/></svg></a>
+  </div>
+
+  <div class="style">
+    <div class="p2">Wygląd</div>
+
+    <button class="buttonStyle" id="btnS5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg></button>
+    <button class="buttonStyle" id="btnS4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg></button>
+    <br>
+    <button class="buttonStyle2d" id="btnS2d"></button>
+    <button class="buttonStyle2b" id="btnS2b"></button>
+    <br>
+    <button class="buttonStyle2g" id="btnS2g"></button>
+    <button class="buttonStyle2p" id="btnS2p"></button>
+
+  </div>
+
+  <div class="form">
+    <form id="myform" method="get" name="myform">
+      <label for="username" >Nazwa użytkownika: </label>
+      <input type="text" name="username" id="username">
+    </form>
+  </div>
+
+  <!-- obliczenia -->
+  <script>
+
+
+    const btn1 = document.querySelector('#btn1');
+    const btn2 = document.querySelector('#btn2');
+    const btn3 = document.querySelector('#btn3');
+    const btn4 = document.querySelector('#btn4');
+    const btn5 = document.querySelector('#btn5');
+    const btn6 = document.querySelector('#btn6');
+    const btn7 = document.querySelector('#btn7');
+    const btn8 = document.querySelector('#btn8');
+    const btn9 = document.querySelector('#btn9');
+    const btn0 = document.querySelector('#btn0');
+
+    const btnCom = document.querySelector('#btnCom')
+
+    const btnClear = document.querySelector('#btnClear')
+
+    const btnSum = document.querySelector('#btnSum');
+    const btnSub = document.querySelector('#btnSub');
+    const btnMult = document.querySelector('#btnMult');
+    const btnDiv = document.querySelector('#btnDiv');
+
+    const btnEql = document.querySelector('#btnEql');
+
+    const p1 = document.querySelector('#p1');
+    let str = '&nbsp';
+
+    const array = ['', '', ''];
+
+    p1.innerHTML = str
+
+    function num1() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '1';
+          console.log(array);
+          str += '1'
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '1';
+          console.log(array);
+          str += '1'
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '1';
+          console.log(array);
+          str += '1'
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '1';
+          console.log(array);
+          str += '1'
+          p1.innerHTML = str
+        }
+      }
+    }
+
+    function num2() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '2';
+          console.log(array);
+          str += '2'
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '2';
+          console.log(array);
+          str += '2'
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '2';
+          console.log(array);
+          str += '2'
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '2';
+          console.log(array);
+          str += '2'
+          p1.innerHTML = str
+        }
+      }
+    }
+
+    function num3() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '3';
+          console.log(array);
+          str += '3'
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '3';
+          console.log(array);
+          str += '3'
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '3';
+          console.log(array);
+          str += '3'
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '3';
+          console.log(array);
+          str += '3'
+          p1.innerHTML = str
+        }
+      }
+    }
+
+    function num4() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '4';
+          console.log(array);
+          str += '4'
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '4';
+          console.log(array);
+          str += '4'
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '4';
+          console.log(array);
+          str += '4'
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '4';
+          console.log(array);
+          str += '4'
+          p1.innerHTML = str
+        }
+      }
+    }
+
+    function num5() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '5';
+          console.log(array);
+          str += '5'
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '5';
+          console.log(array);
+          str += '5'
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '5';
+          console.log(array);
+          str += '5'
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '5';
+          console.log(array);
+          str += '5'
+          p1.innerHTML = str
+        }
+      }
+    }
+
+    function num6() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '6';
+          console.log(array);
+          str += '6'
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '6';
+          console.log(array);
+          str += '6'
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '6';
+          console.log(array);
+          str += '6'
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '6';
+          console.log(array);
+          str += '6'
+          p1.innerHTML = str
+        }
+      }
+    }
+
+    function num7() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '7';
+          console.log(array);
+          str += '7'
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '7';
+          console.log(array);
+          str += '7'
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '7';
+          console.log(array);
+          str += '7'
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '7';
+          console.log(array);
+          str += '7'
+          p1.innerHTML = str
+        }
+      }
+    }
+
+    function num8() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '8';
+          console.log(array);
+          str += '8'
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '8';
+          console.log(array);
+          str += '8'
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '8';
+          console.log(array);
+          str += '8'
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '8';
+          console.log(array);
+          str += '8'
+          p1.innerHTML = str
+        }
+      }
+    }
+
+    function num9() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '9';
+          console.log(array);
+          str += '9'
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '9';
+          console.log(array);
+          str += '9'
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '9';
+          console.log(array);
+          str += '9'
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '9';
+          console.log(array);
+          str += '9'
+          p1.innerHTML = str
+        }
+      }
+    }
+
+    function num0() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '0';
+          console.log(array);
+          str += '0'
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '0';
+          console.log(array);
+          str += '0'
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '0';
+          console.log(array);
+          str += '0'
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '0';
+          console.log(array);
+          str += '0'
+          p1.innerHTML = str
+        }
+      }
+    }
+
+
+
+    function com() {
+      if (array[1] !== '') {
+        if (array[2] === '') {
+          array[2] = '.';
+          console.log(array);
+          str += ','
+          p1.innerHTML = str
+        } else {
+          array[2] = array[2] + '.';
+          console.log(array);
+          str += ','
+          p1.innerHTML = str
+        }
+      } else {
+        if (array[0] === '') {
+          array[0] = '.';
+          console.log(array);
+          str += ','
+          p1.innerHTML = str
+        } else {
+          array[0] = array[0] + '.';
+          console.log(array);
+          str += ','
+          p1.innerHTML = str
+        }
+      }
+    }
+
+    function minus() {
+      if (array[0] === '') {
+        array[0] = '-';
+        console.log(array);
+        str += '-'
+        p1.innerHTML = str
+      } else if (array[2] === '' && array[1] === '-') {
+        array[2] = '-';
+        array[1] = '+'
+        console.log(array);
+        str += ' - '
+        p1.innerHTML = str
+      } else if (array[2] === '') {
+        array[2] = '-';
+        console.log(array);
+        str += ' - '
+        p1.innerHTML = str
+      }
+    }
+
+
+    function sum() { if (array[1] === '') { array[1] = '+'; str += ' + '; p1.innerHTML = str } }
+
+    function sub() { if (array[1] === '' && array[0] !== '') { array[1] = '-'; p1.innerHTML = str } }
+
+    function mult() { if (array[1] === '') { array[1] = '*'; str += ' • '; p1.innerHTML = str } }
+
+    function div() { if (array[1] === '') { array[1] = '/'; str += ' ÷ '; p1.innerHTML = str } }
+
+    function pow() { if (array[1] === '') { array[1] = '**'; str += ' ** '; p1.innerHTML = str } }
+
+    function root() { if (array[1] === '') { array[1] = '//'; str += ' √  '; p1.innerHTML = str } }
+
+
+
+    function eql() {
+      if (array[1] === '+') {
+        const result = Number(array[0]) + Number(array[2])
+        console.log(result)
+        p1.innerHTML = `${str} = ${result}`
+        str = result;
+        array[0] = '';
+        array[1] = '';
+        array[2] = '';
+      } else if (array[1] === '-') {
+        const result = Number(array[0]) - Number(array[2])
+        console.log(result)
+        p1.innerHTML = `${str} = ${result}`
+        str = result;
+        array[0] = '';
+        array[1] = '';
+        array[2] = '';
+      } else if (array[1] === '*') {
+        const result = Number(array[0]) * Number(array[2])
+        console.log(result)
+        p1.innerHTML = `${str} = ${result}`
+        str = result;
+        array[0] = '';
+        array[1] = '';
+        array[2] = '';
+      } else if (array[1] === '/') {
+        const result = Number(array[0]) / Number(array[2])
+        console.log(result)
+        p1.innerHTML = `${str} = ${result}`
+        str = result;
+        array[0] = '';
+        array[1] = '';
+        array[2] = '';
+      } else if (array[1] === '**') {
+        const result = Number(array[0]) ** Number(array[2])
+        console.log(result)
+        p1.innerHTML = `${str} = ${result}`
+        str = result;
+        array[0] = '';
+        array[1] = '';
+        array[2] = '';
+      } else if (array[1] === '//') {
+        if (array[0] === '') {
+          array[0] = 1
+        }
+        const result = Math.sqrt(Number((array[2]))) * Number(array[0])
+        console.log(result)
+        p1.innerHTML = `${str} = ${result}`
+        str = result;
+        array[0] = '';
+        array[1] = '';
+        array[2] = '';
+      }
+      console.log(p1.textContent)
+    }
+
+    function clear() {
+      str = '&nbsp';
+      array[0] = '';
+      array[1] = '';
+      array[2] = '';
+      p1.innerHTML = str
+      console.log(array)
+    }
+
+    btn1.addEventListener('click', num1)
+    btn2.addEventListener('click', num2)
+    btn3.addEventListener('click', num3)
+    btn4.addEventListener('click', num4)
+    btn5.addEventListener('click', num5)
+    btn6.addEventListener('click', num6)
+    btn7.addEventListener('click', num7)
+    btn8.addEventListener('click', num8)
+    btn9.addEventListener('click', num9)
+    btn0.addEventListener('click', num0)
+
+    btnSum.addEventListener('click', sum)
+    btnSub.addEventListener('click', sub)
+    btnSub.addEventListener('click', minus)
+    btnMult.addEventListener('click', mult)
+    btnDiv.addEventListener('click', div)
+    btnPow.addEventListener('click', pow)
+    btnRoot.addEventListener('click', root)
+
+    btnCom.addEventListener('click', com)
+
+    btnEql.addEventListener('click', eql)
+    btnClear.addEventListener('click', clear)
+
+  </script>
+
+  <!-- wprowadzanie do db -->
+
+  <script>
+
+      const myForm = document.querySelector('#myform')
+      let lat, lon;
+
+      const button = document.getElementById('btnEql');
+      button.addEventListener('click', async event => {
+        let text = p1.textContent
+        lat = text
+        let user = myForm.username.value + 'a'
+        lon = user
+        const data = { lat, lon };
+        const options = {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        };
+        const response = await fetch('/api', options);
+        const json = await response.json();
+        console.log(json);
+      });
+
+
+  </script>
+
+  <!-- style -->
+  <script>
+
+    
+    const btnS2 = document.querySelector('#btnS2')
+    const btnS2d = document.querySelector('#btnS2d')
+    const btnS2b = document.querySelector('#btnS2b')
+    const btnS2g = document.querySelector('#btnS2g')
+    const btnS2p = document.querySelector('#btnS2p')
+    
+    
+    const btnS5 = document.querySelector('#btnS5')
+    const btnS4 = document.querySelector('#btnS4')
+
+
+
+    const link = document.querySelector('#link')
+    let link2 = document.getElementById('link')
+
+    const body = document.querySelector('#body')
+
+
+    function style2() { link.href = "style2.css" }
+    function style2b() { link.href = "style2-blue.css" }
+    function style2g() { link.href = "style2-green.css" }
+    function style2p() { link.href = "style2-purp.css" }
+
+
+    function styleDark() {
+        body.style.backgroundColor = '#202020'
+      }
+
+    function styleLight() {
+        body.style.backgroundColor = 'white'
+      }
+
+
+
+    btnS4.addEventListener('click', styleDark)
+    btnS5.addEventListener('click', styleLight)
+
+    btnS2d.addEventListener('click', style2)
+    btnS2b.addEventListener('click', style2b)
+    btnS2g.addEventListener('click', style2g)
+    btnS2p.addEventListener('click', style2p)
+
+
+  </script>
+
+
+
+
+</body>
+
+</html>

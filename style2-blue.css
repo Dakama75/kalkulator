@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+  * {
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+body {
+    background-color: #78B0FF;
+}
+
+.style {
+  text-align: center;
+  position: absolute;
+    right: 2%;
+    top: 2%;
+  width: 7%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: 6px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #002E5C;
+  background-color: #78B0FF;
+
+}
+
+.buttonStyle{
+  margin-top: 6px;
+  border: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #002E5C;
+  width: 35px;
+  height: 35px;
+  background-color: #397ABF;
+}
+
+.buttonStyle:hover{
+  border-color: #002E5C;
+  background-color: #4DA3FF;
+}
+
+.buttonStyle:active{
+  border-color: #397ABF;
+  background-color: white;
+}
+
+sup {
+  vertical-align: super;
+  font-size: 15px;
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: #397ABF;
+  border: solid;
+  border-radius: 15px;
+  border-color: #002E5C;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 0.75px;
+  margin-right: 0.75px;
+  border-width: 6px;
+}
+
+.button:hover {
+  border-color: #002E5C;
+  background-color: #4DA3FF;
+}
+
+.button:active {
+  border-color: #397ABF;
+  background-color: white;
+}
+
+.all {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 160px;
+    height: 350px;
+    border: 6px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #002E5C;
+    background-color: #78B0FF;
+
+}
+
+input {
+  margin-top: 6px;
+  border: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #002E5C;
+
+  height: 35px;
+  background-color: #397ABF;
+}
+
+.form {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 88%;
+    width: 15%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: 6px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #002E5C;
+    background-color: #78B0FF;
+}
+
+.semiall > .all {
+    margin-bottom: -100%;
+}
+
+.p1 {
+  margin-top: -50px;
+}
+
+.buttonEql {
+    width: 166px;
+    height: 80px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    background-color: #397ABF;
+    border: solid;
+    border-radius: 15px;
+    border-color: #002E5C;
+    border-width: 6px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 0.75px;
+    margin-right: 0.75px;
+  }
+  
+  .buttonEql:hover {
+      border-color: #002E5C;
+      background-color: #4DA3FF;
+    }
+  
+  .buttonEql:active {
+      border-color: #397ABF;
+      background-color: white;
+  }
+
+  .p1 {
+    padding-right: 10px;
+    text-align: right;
+    font-size: 50px;
+  }
+
+  .buttonStyle1 {
+    display: none;
+  }
+
+  .buttonStyle3 {
+    display: none;
+  }
+
+
+  .buttonStyle2d{
+    margin-top: 6px;
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #999;
+    width: 35px;
+    height: 35px;
+    background-color: #C0C0C0;
+  }
+  
+  .buttonStyle2d:hover{
+    border-color: #999;
+    background-color: #E0E0E0;
+  }
+  
+  .buttonStyle2d:active{
+    border-color: #C0C0C0;
+    background-color: white;
+  }
+
+  .buttonStyle2g{
+    margin-top: 6px;
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #005740;
+    width: 35px;
+    height: 35px;
+    background-color: #33FFD2;
+  }
+  
+  .buttonStyle2g:hover{
+    border-color: #005740;
+    background-color: #00805E;
+  }
+  
+  .buttonStyle2g:active{
+    border-color: #33FFD2;
+    background-color: white;
+  }
+
+  .buttonStyle2b{
+    margin-top: 6px;
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #002E5C;
+    width: 35px;
+    height: 35px;
+    background-color: #397ABF;
+  }
+  
+  .buttonStyle2b:hover{
+    border-color: #002E5C;
+    background-color: #4DA3FF;
+  }
+  
+  .buttonStyle2b:active{
+    border-color: #397ABF;
+    background-color: white;
+  }
+
+  .buttonStyle2p{
+    margin-top: 6px;
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #350080;
+    width: 35px;
+    height: 35px;
+    background-color: #9249E6;
+  }
+  
+  .buttonStyle2p:hover{
+    border-color: #350080;
+    background-color: #7F40C7;
+  }
+  
+  .buttonStyle2p:active{
+    border-color: #9249E6;
+    background-color: white;
+  }
